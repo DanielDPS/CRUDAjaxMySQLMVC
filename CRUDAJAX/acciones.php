@@ -2,7 +2,6 @@
 include("db/db.php");
 include("models/usermodel.php");
 $user= new usermodel();
-$conexion = db::conectar();
 $acc=$_GET['accion'];
 if ($acc=="show") {
     $user->showAll();
