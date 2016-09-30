@@ -1,0 +1,31 @@
+.modulocrud{
+	width: 30%;
+	min-height: 0%;
+	background-color: lightgray;
+	text-align: center;
+	margin:auto;
+}
+
+.modulocrud >table{
+
+	width: 100%;
+	text-align: left;
+}
+
+.modulomostrar{
+	width: 30%;
+	min-height: 0%;
+	margin:auto;
+	background-color: lightgray;
+	text-align: center;
+
+}
+.modulomostrar > table {
+	width: 80%;
+	text-align: left;
+}
+.modulomostrar > table> thead
+{
+	background-color: black;
+	color:white;
+}
